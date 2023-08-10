@@ -1,8 +1,12 @@
 # Recurse
 
-Explicit recursion inside functions with a recursive block.
+[![hex.pm](https://img.shields.io/hexpm/v/recurse.svg)](https://hex.pm/packages/recurse)
+[![hex.pm](https://img.shields.io/hexpm/dt/recurse.svg)](https://hex.pm/packages/recurse)
+[![hex.pm](https://img.shields.io/hexpm/l/recurse.svg)](https://hex.pm/packages/recurse)
+[![hexdocs.pm](https://img.shields.io/badge/documentation-gray)](https://hexdocs.pm/recurse)
 
-## [Documentation](https://hexdocs.pm/recurse)
+
+Explicit recursion inside functions with a recursive block.
 
 ## Installation
 
@@ -41,4 +45,5 @@ end
 ```
 
 ## License
+
 Recurse is released under the GPL-3.0 license - see the [LICENSE](LICENSE) file.

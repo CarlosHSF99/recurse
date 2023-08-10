@@ -1,6 +1,6 @@
 defmodule Recurse do
   @moduledoc """
-  Recurse module.
+  #{File.read!("README.md")}
   """
 
   @doc """
