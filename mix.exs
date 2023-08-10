@@ -1,7 +1,7 @@
 defmodule Recurse.MixProject do
   use Mix.Project
 
-  @source_url "https://github.com/carloshsf/recurse"
+  @source_url "https://github.com/CarlosHSF99/recurse"
 
   def project do
     [
