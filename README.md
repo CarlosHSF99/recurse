@@ -18,7 +18,7 @@ end
 
 ## Usage
 
-Without Recurse, a tail-recursive definition of reverse could be written like so:
+Without Recurse, a tail-recursive definition of reverse could be written like this:
 
 ```elixir
 def reverse(list), do: do_reverse(list, [])
@@ -29,13 +29,13 @@ defp do_reverse([head | tail], acc) do
 end
 ```
 
-With Recurse you could do it like this:
+With Recurse, you could do it like this:
 
 ```elixir
 def reverse(list) do
-  recurs on list, [] do
+  recurse on list, [] do
     [], acc -> acc
-    [head | tail], acc -> recurs tail, [head | acc]
+    [head | tail], acc -> recurse tail, [head | acc]
   end
 end
 ```
